@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:background="@drawable/tour_background"
+    tools:context=".Country.CountryListDisplay">
+
+    <LinearLayout
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/toolBar">
+
+
+            <TextView
+            android:id="@+id/search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="enter search text"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_gravity="center" >
+
+            </TextView>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_weight="8"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:padding="1dp" >
+
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle"
+        android:layout_width="411dp"
+        android:layout_height="576dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+
+    <com.scwang.smartrefresh.layout.footer.FalsifyFooter
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/endColor" />
+
+        <TextView
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium1"
+            android:textSize="20sp"
+            android:text="back"
+            android:onClick="goToHome"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="335dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_medium1"
+            android:text="help"
+            android:onClick="goToSettings"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </com.scwang.smartrefresh.layout.footer.FalsifyFooter>
+</LinearLayout>

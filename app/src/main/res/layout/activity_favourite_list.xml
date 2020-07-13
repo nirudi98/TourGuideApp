@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:background="@color/note_activity"
+    tools:context=".Country.ModelCountryList">
+
+
+    <RelativeLayout
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="1dp" >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/note_activity"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        <Button
+            android:id="@+id/goToCountryList"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_back_button"/>
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:text="YOUR FAVORITES.."/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle"
+            android:layout_width="410dp"
+            android:layout_height="517dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="120dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+    <com.scwang.smartrefresh.layout.footer.FalsifyFooter
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </com.scwang.smartrefresh.layout.footer.FalsifyFooter>
+</LinearLayout>

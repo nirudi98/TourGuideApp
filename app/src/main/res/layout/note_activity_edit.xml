@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/note_activity">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:background="@color/note_activity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/transparent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+        <EditText
+            android:id="@+id/titleId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tool1"
+            android:layout_marginTop="10dp"
+            android:background="@color/transparent"
+            android:ems="10"
+            android:fontFamily="@font/open_sans_semibold"
+            android:hint="Note title"
+            android:inputType="textPersonName"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:background="@drawable/note_background">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/flowcharts"/>
+
+        <EditText
+            android:id="@+id/noteDetails"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginLeft="55dp"
+            android:background="@color/transparent"
+            android:fontFamily="@font/open_sans_semibold"
+            android:textColor="@color/black"
+            android:gravity="top"
+            android:textSize="16sp"
+            android:hint="enter your edited content here"
+            android:paddingLeft="30dp"
+            android:paddingTop="20dp"
+            android:paddingRight="16dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

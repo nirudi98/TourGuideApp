@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Favourite</string>
+
+    <!-- opening page -->
+    <string name="title">TOUR WITH US</string>
+    <string name="desc">Over the years ,Tour With Us has become a favorite gathering place for photographers, tourists and visitors from around the world.</string>
+    <string name="started">Get Started</string>
+
+    <!-- login & registration page -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="confirm_pass">Re-Type Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="help">Help</string>
+    <string name="gotoLogin">I am a member!</string>
+
+
+    <!-- home page -->
+    <string name="dashboard">My Dashboard</string>
+    <string name="accessed">Last Accessed :  2020/09/05</string>
+    <string name="home">HOME</string>
+    <string name="featured">FEATURED</string>
+    <string name="favourite">FAVOURITES</string>
+    <string name="notes">NOTES</string>
+    <string name="location">LOCATION</string>
+    <string name="settings">SETTINGS</string>
+
+
+    <!-- settings page -->
+    <string name="me">Me</string>
+    <string name="account">Account</string>
+    <string name="notify">Notifications</string>
+
+
+    <!-- country details page -->
+    <string name="details_coun">Country Details:</string>
+    <string name="coun_name">Country Name:</string>
+    <string name="currency">Currencies:</string>
+    <string name="language">Languages:</string>
+    <string name="cap_city">Capital City:</string>
+    <string name="other_city">cities:</string>
+
+
+    <!-- city details page -->
+    <string name="details_city">City Details:</string>
+    <string name="coun_name_city_page">Country Name:</string>
+    <string name="city_image">Add Image:</string>
+    <string name="population">Population:</string>
+    <string name="airport">Nearest Airport:</string>
+
+
+    <!--display main country map -->
+    <string name="countryName_map">Country Name</string>
+
+
+    <!-- display country details -->
+    <string name="coun_name_display">Country Name:</string>
+    <string name="currency_display">Currency:</string>
+    <string name="language_display">Languages:</string>
+    <string name="cap_city_display">Capital City:</string>
+    <string name="other_city_display">Cities</string>
+
+
+    <!-- buttons -->
+    <string name="submit">Submit</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_country_maps">Map</string>
+
+
+    <!-- featured page -->
+    <string name="featured_reservation">Reservation</string>
+    <string name="featured_cities">Cities</string>
+    <string name="featured_restaurants">Restaurants</string>
+
+    <!-- navigation drawer -->
+    <string name="header">Username</string>
+    <string name="email_nav">username123@gmail.com</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+    <!-- display more country page -->
+    <string name="description">The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC. Midwestern metropolis Chicago is known for influential architecture and on the west coast,Hollywood is famed for film-making.</string>
+
+
+    <!-- note activity -->
+    <string name="addnote">New Note</string>
+
+    <!-- city details page -->
+    <string name="cityName">City Name</string>
+
+    <!-- splash screen -->
+    <string name="loading">LOADING ...</string>
+
+
+</resources>

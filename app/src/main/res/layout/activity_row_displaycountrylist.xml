@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_marginTop="15dp"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="250dp">
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="380dp"
+    android:layout_height="225dp"
+    style="@style/CardView.Light"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="10dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="3dp"
+    android:padding="5dp"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/image_country_display"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/london" />
+
+    <TextView
+        android:id="@+id/list_country_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="username"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp">
+
+        <Button
+            android:id="@+id/favBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_favorite_border_white"/>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

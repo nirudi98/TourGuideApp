@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.nearchos.favourite">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".Home.Home" />
+        <activity android:name=".Login.Login" />
+        <activity android:name=".Login.Register" />
+        <activity android:name=".Country.DisplayMoreCountry" />
+        <activity android:name=".Country.CountryMapsActivity" />
+        <activity android:name=".Home.Settings" />
+        <activity
+            android:name=".Home.NavigationDrawerActivity"
+            android:theme="@style/toolBar" />
+        <activity android:name=".City.ShowCityDetails" />
+        <activity android:name=".City.AddCity" />
+        <activity android:name=".Notes.AddNote">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Country.DisplayMoreCountry" />
+        </activity>
+        <activity android:name=".Notes.Note" />
+        <activity android:name=".Notes.Details">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Notes.Note" />
+        </activity>
+        <activity android:name=".Notes.Edit" />
+        <activity android:name=".Featured.FeaturedMain" />
+        <activity android:name=".Country.Country_details"/>
+
+        <activity android:name=".Favourite.DisplayFavouriteList" />
+        <activity android:name=".Country.CountryListDisplay" />
+        <activity android:name=".Login.Opening"/>
+        <activity android:name=".Login.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

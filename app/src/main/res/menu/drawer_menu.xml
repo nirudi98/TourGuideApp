@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_country"
+            android:icon="@drawable/ic_language"
+            android:title="Countries" />
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/ic_edit"
+            android:title="Notes" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+
+
+    </group>
+
+    <!-- separate section, trigger action doesn't stay selected -->
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send"
+                android:title="Send" />
+        </menu>
+
+    </item>
+
+</menu>

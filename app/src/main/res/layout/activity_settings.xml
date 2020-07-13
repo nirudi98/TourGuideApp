@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tour_background"
+    tools:context=".Home.Settings" >
+
+    <RelativeLayout
+        android:layout_width="700dp"
+        android:layout_height="631dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="40dp">
+
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="222dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/settings"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+        <RelativeLayout
+            android:id="@+id/real"
+            android:layout_width="326dp"
+            android:layout_height="7000dp"
+            android:layout_below="@+id/text_view1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:background="@drawable/background_edittextfill"
+                    android:orientation="vertical"
+                    android:elevation="5dp">
+
+
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/me"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/me"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="John Doe"
+                        android:textColor="@color/hintColor"
+                        android:textSize="12sp" />
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:background="@drawable/background_edittextfill"
+                    android:orientation="vertical"
+                    android:elevation="5dp">
+
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/profile"
+                        android:drawablePadding="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/account"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"/>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="doe@mail.com"
+                        android:textColor="@color/hintColor"
+                        android:textSize="12sp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:background="@drawable/background_edittextfill"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/notification"
+                        android:drawablePadding="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/notify"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="All"
+                        android:textColor="@color/hintColor"
+                        android:textSize="12sp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/background_edittextfill"
+                    android:orientation="vertical"
+                    android:elevation="5dp">
+
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/help"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/help"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="75dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Questions?"
+                        android:textColor="@color/hintColor"
+                        android:textSize="12sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.SplashScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/edit_text">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/plane1"
+            />
+
+        <TextView
+            android:id="@+id/loading"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="430dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="@string/loading"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

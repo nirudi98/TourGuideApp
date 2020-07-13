@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/note_activity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/transparent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_below="@+id/tool1"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:text="@string/addnote"/>
+
+        <TextView
+            android:id="@+id/noteCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_below="@+id/note"
+            android:hint="Note Country"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:inputType="textPersonName"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp" />
+
+        <EditText
+            android:id="@+id/titleId"
+            android:layout_below="@id/noteCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:hint="Note title"
+            android:background="@color/transparent"
+            android:inputType="textPersonName"
+            android:fontFamily="@font/open_sans_semibold"
+            android:textColor="@color/black"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:background="@drawable/note_background">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/flowcharts"/>
+
+            <EditText
+                android:id="@+id/noteDetails"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_marginTop="94dp"
+                android:layout_marginLeft="55dp"
+                android:background="@color/transparent"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textColor="@color/black"
+                android:gravity="top"
+                android:textSize="16sp"
+                android:hint="write a note"
+                android:paddingLeft="30dp"
+                android:paddingTop="20dp"
+                android:paddingRight="16dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

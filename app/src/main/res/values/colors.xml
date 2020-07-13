@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#0A1F31</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="appbar_color">#F5F7FA</color>
+
+    <color name="startColor">#FFFFFF</color>
+    <color name="endColor">#3958CD</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="text_box">#DEE9EA</color>
+    <color name="image_view_back">#0D1875</color>
+
+    <!--> button -->
+    <color name="buttonStartColor">#06223A</color>
+    <color name="buttonEndColor">#13446D</color>
+    <color name="card">#7A9FE8</color>
+
+    <!-- edit text in settings/ country details/ city details -->
+    <color name="TextStartColor">#AEB8D9</color>
+    <color name="TextEndColor">#9DA8F1</color>
+    <color name="hintColor">#333C58</color>
+    <color name="edit_text">#7A9FE8</color>
+
+
+    <!-- note activity background -->
+    <color name="note_activity">#CFDCE7</color>
+
+    <!-- google maps -->
+    <color name="googleOcean">#AADAFF</color>
+
+    <!-- splash screen hex -->
+    <color name="darkBlue">#0A1F31</color>
+
+
+
+</resources>
