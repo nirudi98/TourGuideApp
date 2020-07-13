@@ -1,6 +1,6 @@
 # TourGuideApp
 
-This is a simple tourist guide app developed using the SQLite Database. 
+This is a simple tourist guide mobile app developed in Android Studio. Database used is SQLite Database 
 This app will provide the following features, 
  1. login and registering 
  2. display 10 countries with their information
